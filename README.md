@@ -1,4 +1,4 @@
-#Sinhala Disease Classifier
+# Sinhala Disease Classifier
 This repository contains code for a machine learning model that can classify Sinhala text data into different disease categories. The model was trained on a dataset of Sinhala medical texts, and can be used to automatically classify new text data into one of the following categories:
 
 * Heart disease
