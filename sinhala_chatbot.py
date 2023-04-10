@@ -42,6 +42,8 @@ scores = cross_val_score(clf, x_test, y_test, cv=3)
 print(scores)
 print(scores.mean())
 
+with open('decision_tree_model.pkl', 'wb') as f:
+    pickle.dump(clf, f)
 
 importances = clf.feature_importances_
 indices = np.argsort(importances)[::-1]
